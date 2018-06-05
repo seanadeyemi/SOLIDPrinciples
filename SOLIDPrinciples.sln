@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "SRP\SRP.csproj", "{9D5FE810-DE1F-4366-9626-742112F9E3E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{0B4B9B92-2050-4CCF-B9D2-A5432E4EF825}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrinciple", "OpenClosedPrinciple\OpenClosedPrinciple.csproj", "{DBF15565-8570-454B-A7DB-7200D2627C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{D451D8AD-5210-4EA7-9487-A8BB04431027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{B51C988D-53E7-4BEE-96F1-C748A07B5A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{EE29973F-CDD8-4809-8C44-1B164849D11E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrincipleBetter", "DependencyInversionPrincipleBetter\DependencyInversionPrincipleBetter.csproj", "{96D2F393-3EC2-42D3-AA3C-66574CCBF343}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D5FE810-DE1F-4366-9626-742112F9E3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5FE810-DE1F-4366-9626-742112F9E3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5FE810-DE1F-4366-9626-742112F9E3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5FE810-DE1F-4366-9626-742112F9E3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4B9B92-2050-4CCF-B9D2-A5432E4EF825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4B9B92-2050-4CCF-B9D2-A5432E4EF825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4B9B92-2050-4CCF-B9D2-A5432E4EF825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4B9B92-2050-4CCF-B9D2-A5432E4EF825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF15565-8570-454B-A7DB-7200D2627C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF15565-8570-454B-A7DB-7200D2627C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF15565-8570-454B-A7DB-7200D2627C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF15565-8570-454B-A7DB-7200D2627C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D451D8AD-5210-4EA7-9487-A8BB04431027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D451D8AD-5210-4EA7-9487-A8BB04431027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D451D8AD-5210-4EA7-9487-A8BB04431027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D451D8AD-5210-4EA7-9487-A8BB04431027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51C988D-53E7-4BEE-96F1-C748A07B5A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51C988D-53E7-4BEE-96F1-C748A07B5A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51C988D-53E7-4BEE-96F1-C748A07B5A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51C988D-53E7-4BEE-96F1-C748A07B5A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE29973F-CDD8-4809-8C44-1B164849D11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE29973F-CDD8-4809-8C44-1B164849D11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE29973F-CDD8-4809-8C44-1B164849D11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE29973F-CDD8-4809-8C44-1B164849D11E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D2F393-3EC2-42D3-AA3C-66574CCBF343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D2F393-3EC2-42D3-AA3C-66574CCBF343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D2F393-3EC2-42D3-AA3C-66574CCBF343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D2F393-3EC2-42D3-AA3C-66574CCBF343}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
